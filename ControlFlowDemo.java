@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class ControlFlowDemo {
     
@@ -11,9 +12,9 @@ public class ControlFlowDemo {
      * @param args
      */
     public static void main(String[] args) {
-        
+        Logger logger = Logger.getLogger(ControlFlowDemo.class.getName());
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        logger.info("Enter a number: ");
         int number = sc.nextInt();
 
         // If-else statement 
@@ -39,12 +40,8 @@ public class ControlFlowDemo {
             
         } else if (number == 2) {
             System.out.println("Number is prime.");
-            boolean isPrime = true;
         } else {
             System.out.println("Number is not prime.");
-            boolean isPrime = false;
-
-
         }
 
 
