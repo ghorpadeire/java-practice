@@ -17,7 +17,7 @@ This project is maintained by a seasoned software engineer with over **10 years 
 ## 📂 Project Structure
 
 ```
-java-practice/
+src/com/Practice/
 ├── 01_HelloWorld.java
 ├── 02_DataTypesDemo.java
 ├── 03_ControlFlowDemo.java
