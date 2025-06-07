@@ -2,6 +2,8 @@
 
 
 
+package com.Practice;
+
 import java.util.logging.Logger;
 
 public class ArrayDemo {
